@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "karo:we_axe",
+        "category": "Equipment"
+      },
+  
+      "components": {
+        "minecraft:icon": {
+          "texture": "axe"
+        },
+        "minecraft:max_stack_size": 1,
+        "minecraft:hand_equipped": true,
+        "minecraft:foil": true,
+        "minecraft:display_name": {
+          "value": "§lWorldEdit Axe"
+        },
+        "minecraft:use_duration": 10000,
+        "minecraft:use_animation": "eat",
+        "minecraft:food": {
+        }
+      }
+    }
+  }

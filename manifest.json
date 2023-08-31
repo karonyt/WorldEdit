@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "WorldEdit風ツール\nmade by IlluminaOriginDeveloperTeam",
+        "name": "WorldEditTool v.0.0.1",
+        "uuid": "7b8c9b48-8214-45c6-a2dc-1df8b08c6901",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 20, 0 ]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "script",
+            "entry": "scripts/main.js",
+            "uuid": "74c1e8ce-7790-4159-8ac8-37cdc0934fa3",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+          "module_name": "@minecraft/server",
+          "version": "1.4.0-beta"
+        }
+    ]
+}
